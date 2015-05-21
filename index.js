@@ -24,11 +24,14 @@ let app = express(),
   }
 
 //passportMiddleware.configure(config.auth[NODE_ENV])
+console.log("B4 config call, app.config.auth: " + JSON.stringify(app.config.auth))
 passportMiddleware.configure(app.config.auth)
 app.passport = passportMiddleware.passport
 
 // connect to the database
 //mongoose.connect(config.database[NODE_ENV].url)
+
+console.log ("app.config.database.url: " + app.config.database.url)
 mongoose.connect(app.config.database.url)
 
 // set up our express middleware
