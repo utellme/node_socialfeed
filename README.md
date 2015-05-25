@@ -6,10 +6,10 @@ Note: Received approval to submit assignement by Wednesday midnight.
 
 *************************************************************
 
-This is a aggregated Social Feed app for consumer Facebook, Google, and Twitter in a single Timeline.
+This is a aggregated Social Feed app for consumer Facebook and Twitter in a single Timeline.
 
 
-Time spent: `<Number of hours spent>`
+Time spent: `12 hours`
 
 ### Features
 
