@@ -1,10 +1,5 @@
 ## Social Feed
 
-************************************************************
-
-Note: Received approval to submit assignement by Wednesday midnight.
-
-*************************************************************
 
 This is a aggregated Social Feed app for consumer Facebook and Twitter in a single Timeline.
 
