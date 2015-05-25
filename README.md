@@ -15,15 +15,15 @@ Time spent: `<Number of hours spent>`
 
 #### Required
 
-- [ ] User can sign in and connect to Facebook, Google and Twitter using `passport`
-- [ ] User can view the last 20 posts on their aggregated timeline
-- [ ] The current signed in user will be persisted across server restarts
-- [ ] In the home timeline, user can view posts with the user profile picture, username, content, origin social network and timestamp.
-- [ ] In the timeline, user can like and unlike posts.
-- [ ] User can click share in the timeline, and share with a custom message on a separate page.
-- [ ] User can click reply in the timeline, and submit a reply on a separate page.
-- [ ] User can click compose anywhere, and submit a new post on a separate page.
-- [ ] When composing, user can select to which networks to post.
+- [X] User can sign in and connect to Facebook and Twitter using `passport`
+- [X] User can view the last 20 posts on their aggregated timeline
+- [X] The current signed in user will be persisted across server restarts
+- [X] In the home timeline, user can view posts with the user profile picture, username, content, origin social network and timestamp.
+- [X] In the timeline, user can like and unlike posts.
+- [X] User can click share in the timeline, and share with a custom message on a separate page.
+- [X] User can click reply in the timeline, and submit a reply on a separate page.
+- [X] User can click compose anywhere, and submit a new post on a separate page.
+- [X] When composing, user can select to which networks to post.
 
 
 ### Optional
@@ -36,7 +36,8 @@ Time spent: `<Number of hours spent>`
 
 ### Walkthrough
 
-![Video Walkthrough](...)
+Note - Go to folder 'Demo' for the the Video Walkthrough
+
 
 
 

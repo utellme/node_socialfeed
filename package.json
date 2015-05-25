@@ -15,6 +15,7 @@
     "express": "^4.12.4",
     "express-session": "^1.11.2",
     "express-then": "^1.0.2",
+    "fb": "^0.7.0",
     "lodash": "^3.8.0",
     "mongoose": "^4.0.3",
     "morgan": "^1.5.3",

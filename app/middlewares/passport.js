@@ -39,7 +39,7 @@ function useExternalPassportStrategy(OauthStrategy, config, field) {
 
         }
         // console.log("><account", account)
-        console.log("><req user", req.user)
+        console.log("***req user", req.user)
 
         if (!user) {
             user = new User({})
@@ -65,19 +65,23 @@ function configure(config) {
   passport.deserializeUser(nodeifyit(async(id) => {
     return await User.findById(id)
   }))
+  
+  console.log("***configAuth-facebook", config.facebook)
 
   useExternalPassportStrategy(FacebookStrategy, {
         clientID: config.facebook.consumerKey,
         clientSecret: config.facebook.consumerSecret,
         callbackURL: config.facebook.callbackUrl
     }, 'facebook')
-    console.log("config", config.twitter)
+
+  console.log("***config-twitter", config.twitter)
 
  useExternalPassportStrategy(TwitterStrategy, {
       consumerKey: config.twitter.consumerKey,
       consumerSecret: config.twitter.consumerSecret,
       callbackURL: config.twitter.callbackUrl
   }, 'twitter')
+
 
   // useExternalPassportStrategy(LinkedInStrategy, {...}, 'linkedin')
   // useExternalPassportStrategy(LinkedInStrategy, {...}, 'facebook')
